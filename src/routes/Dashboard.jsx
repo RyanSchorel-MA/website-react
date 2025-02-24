@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import spinazie from "../assets/spinazie.jpg"; // Adjust the path as needed
 
 const Ontbijtmenu = () => {
   const navigate = useNavigate();
@@ -13,41 +14,54 @@ const Ontbijtmenu = () => {
     <div className="min-h-screen">
       <Navbar />
       <div className="max-w-5xl mx-auto mt-10 p-4">
-        <h1 className="text-3xl font-bold text-center mb-6">Ontbijtmenu</h1>
+        <h1 className="text-3xl font-bold text-center mb-6 ">Ontbijtmenu</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h2 className="text-xl font-bold text-center">Spinazie</h2>
-            <p className="text-gray-600 text-center mt-2">Hier komt een recept</p>
+
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+            <img
+              src={spinazie}
+              alt="Spinazie"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2">Spinazie</h2>
+            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
             <button
               onClick={() => handleButtonClick("spinazie")}
-              className="bg-blue-500 text-white p-2 rounded mt-4 w-full"
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
               Bekijk Recept
             </button>
           </div>
 
-          {/* Menu 2 met link naar Wraps */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h2 className="text-xl font-bold text-center">Wraps</h2>
-            <p className="text-gray-600 text-center mt-2">Hier komt een recept</p>
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+            <img
+              src="/path/to/wraps-image.jpg"
+              alt="Wraps"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2">Wraps</h2>
+            <p className="text-gray-600 text-center mt-2 mb-4">Hier komt een recept</p>
             <button
               onClick={() => handleButtonClick("wraps")}
-              className="bg-blue-500 text-white p-2 rounded mt-4 w-full"
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
               Bekijk Recept
             </button>
-
-          
           </div>
 
           {[...Array(6)].map((_, index) => (
-            <div key={index} className="bg-white shadow-lg rounded-lg p-6">
-              <h2 className="text-xl font-bold text-center">Menu: {index + 3}</h2>
-              <p className="text-gray-600 text-center mt-2">Hier komt een recept</p>
+            <div key={index} className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+              <img
+                src="/path/to/default-image.jpg"
+                alt={`Menu ${index + 3}`}
+                className="w-full h-48 object-cover rounded-md mb-4"
+              />
+              <h2 className="text-xl font-bold text-center mb-2">Menu: {index + 3}</h2>
+              <p className="text-gray-600 text-center mt-2 mb-4">Hier komt een recept</p>
               <button
                 onClick={() => handleButtonClick(`menu-${index + 3}`)}
-                className="bg-blue-500 text-white p-2 rounded mt-4 w-full"
+                className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
               >
                 Bekijk Recept
               </button>
