@@ -2,6 +2,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import spinazie from "../assets/spinazie.jpg"; 
+import Andijvie from "../assets/Andijvie.jpg"; 
+import Wraps from "../assets/Wraps.jpg"; 
+
 import menu from "../assets/menu.png"; 
 
 
@@ -16,7 +19,7 @@ const Ontbijtmenu = () => {
     <div className="min-h-screen">
       <Navbar />
       <div className="max-w-5xl mx-auto mt-10 p-4">
-        <h1 className="text-3xl font-bold text-center mb-6 ">Ontbijtmenu</h1>
+        <h1 className="text-3xl font-bold text-center mb-6 ">Menu</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
@@ -37,8 +40,8 @@ const Ontbijtmenu = () => {
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-            <img
-              src="/path/to/wraps-image.jpg"
+          <img
+              src={Wraps}
               alt="Wraps"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -53,8 +56,8 @@ const Ontbijtmenu = () => {
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-            <img
-              src="/path/to/Andijvie.jpg"
+          <img
+              src={Andijvie}
               alt="Andijvie"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
