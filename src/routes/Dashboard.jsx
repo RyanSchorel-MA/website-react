@@ -1,7 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import spinazie from "../assets/spinazie.jpg"; // Adjust the path as needed
+import spinazie from "../assets/spinazie.jpg"; 
+import menu from "../assets/menu.png"; 
+
 
 const Ontbijtmenu = () => {
   const navigate = useNavigate();
@@ -50,10 +52,26 @@ const Ontbijtmenu = () => {
             </button>
           </div>
 
-          {[...Array(6)].map((_, index) => (
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+            <img
+              src="/path/to/Andijvie.jpg"
+              alt="Andijvie"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2">Andijvie</h2>
+            <p className="text-gray-600 text-center mt-2 mb-4">Hier komt een recept</p>
+            <button
+              onClick={() => handleButtonClick("andijvie")}
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
+            >
+              Bekijk Recept
+            </button>
+          </div>
+
+          {[...Array(5)].map((_, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
               <img
-                src="/path/to/default-image.jpg"
+                src={menu}
                 alt={`Menu ${index + 3}`}
                 className="w-full h-48 object-cover rounded-md mb-4"
               />

@@ -4,6 +4,8 @@ import Dashboard from './routes/Dashboard';
 import Contact from './routes/Contact';
 import Spinazie from "./routes/Spinazie.jsx";
 import Wraps from './routes/Wraps.jsx';  
+import Andijvie from './routes/Andijvie.jsx';  
+
 
 
 export const router = createBrowserRouter([
@@ -12,5 +14,7 @@ export const router = createBrowserRouter([
   { path: "/contact", element: <Contact /> },
   { path: "/spinazie", element: <Spinazie /> },
   { path: "/wraps", element: <Wraps /> },  
+  { path: "/andijvie", element: <Andijvie /> },  
+
   { path: ":slug", element: <Contact /> },
 ]);
