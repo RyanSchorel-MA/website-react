@@ -5,6 +5,8 @@ import Contact from './routes/Contact';
 import Spinazie from "./routes/Spinazie.jsx";
 import Wraps from './routes/Wraps.jsx';  
 import Andijvie from './routes/Andijvie.jsx';  
+import Bami from './routes/Bami.jsx';
+
 
 
 
@@ -15,6 +17,7 @@ export const router = createBrowserRouter([
   { path: "/spinazie", element: <Spinazie /> },
   { path: "/wraps", element: <Wraps /> },  
   { path: "/andijvie", element: <Andijvie /> },  
+  { path: "/bami", element: <Bami /> },  
 
   { path: ":slug", element: <Contact /> },
 ]);

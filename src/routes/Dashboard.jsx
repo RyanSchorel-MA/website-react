@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import spinazie from "../assets/spinazie.jpg"; 
 import Andijvie from "../assets/Andijvie.jpg"; 
 import Wraps from "../assets/Wraps.jpg"; 
+import Bami from "../assets/Bami.jpg"; 
+
 
 import menu from "../assets/menu.png"; 
 
@@ -65,6 +67,22 @@ const Ontbijtmenu = () => {
             <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
             <button
               onClick={() => handleButtonClick("andijvie")}
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
+            >
+              Bekijk Recept
+            </button>
+          </div>
+
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+          <img
+              src={Bami}
+              alt="Bami"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2">Bami</h2>
+            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+            <button
+              onClick={() => handleButtonClick("bami")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
               Bekijk Recept
