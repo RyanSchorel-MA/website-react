@@ -44,7 +44,7 @@ const Ontbijtmenu = () => {
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
               onClick={() => handleButtonClick("spinazierecept")}
             >
-              Klik hier voor het recept
+              _
             </p>
             <button
               onClick={() => handleButtonClick("spinazie")}
@@ -54,7 +54,6 @@ const Ontbijtmenu = () => {
             </button>
           </div>
 
-
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
               src={Wraps}
@@ -62,7 +61,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Wraps</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+            <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("wraps")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -78,7 +82,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Andijvie</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+            <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("andijvie")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -94,7 +103,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Bami</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+            <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("bami")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -110,7 +124,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Roti</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+            <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("roti")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -126,7 +145,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Durum</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+            <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("durum")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -143,7 +167,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+            <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("kibbeling")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -159,7 +188,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Pizza</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+            <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("pizza")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -175,7 +209,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Patat</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("patat")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -192,7 +231,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Pannenkoeken</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("pannenkoeken")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -209,7 +253,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("kibbeling")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
@@ -226,7 +275,12 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("kibbeling")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
