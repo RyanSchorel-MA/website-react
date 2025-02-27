@@ -9,7 +9,6 @@ import Roti from "../assets/roti.avif";
 import Darum from "../assets/Darum.jpg"; 
 import Patat from "../assets/Patat.jpg"; 
 import Pizza from "../assets/Pizza.jpg"; 
-import Kibbeling from "../assets/Kibbeling.jpg"; 
 
 
 
@@ -130,7 +129,7 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
           <img
-              src={Kibbeling}
+              src={Bami}
               alt="Kibbeling"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -183,10 +182,10 @@ const Ontbijtmenu = () => {
               alt="Kibbeling"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
+            <h2 className="text-xl font-bold text-center mb-2">Pannenkoeken</h2>
             <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
             <button
-              onClick={() => handleButtonClick("kibbeling")}
+              onClick={() => handleButtonClick("pannenkoeken")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
               Bekijk Recept
