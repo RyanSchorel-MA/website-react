@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="bg-[#DFD7BF] p-5 flex justify-center">
       <div className="flex gap-8">
         <Link to='/' className="text-lg ">Home</Link>
-        <Link to='/dashboard' className="text-lg ">Ontbijt</Link>
+        <Link to='/dashboard' className="text-lg ">Dagmenu</Link>
         <Link to='/contact' className="text-lg ">Contact</Link>
 
       </div>
