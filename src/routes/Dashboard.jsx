@@ -1,18 +1,18 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import spinazie from "../assets/spinazie.jpg"; 
-import Andijvie from "../assets/Andijvie.jpg"; 
-import Wraps from "../assets/Wraps.jpg"; 
-import Bami from "../assets/Bami.jpg"; 
-import Roti from "../assets/roti.avif"; 
-import Darum from "../assets/Darum.jpg"; 
-import Patat from "../assets/Patat.jpg"; 
-import Pizza from "../assets/Pizza.jpg"; 
+import spinazie from "../assets/spinazie.jpg";
+import Andijvie from "../assets/Andijvie.jpg";
+import Wraps from "../assets/Wraps.jpg";
+import Bami from "../assets/Bami.jpg";
+import Roti from "../assets/roti.avif";
+import Darum from "../assets/Darum.jpg";
+import Patat from "../assets/Patat.jpg";
+import Pizza from "../assets/Pizza.jpg";
 
 
 
-import menu from "../assets/menu.png"; 
+import menu from "../assets/menu.png";
 
 
 const Ontbijtmenu = () => {
@@ -21,6 +21,9 @@ const Ontbijtmenu = () => {
   const handleButtonClick = (menu) => {
     navigate(`/${menu}`);
   };
+
+
+
 
   return (
     <div className="min-h-screen">
@@ -37,17 +40,23 @@ const Ontbijtmenu = () => {
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Spinazie</h2>
-            <p className="text-gray-600 text-center mt-2 mb-4">Klik hier voor het recept</p>
+            <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
             <button
               onClick={() => handleButtonClick("spinazie")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
+
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Wraps}
               alt="Wraps"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -58,12 +67,12 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("wraps")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Andijvie}
               alt="Andijvie"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -74,12 +83,12 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("andijvie")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Bami}
               alt="Bami"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -90,12 +99,12 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("bami")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Roti}
               alt="Bami"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -106,12 +115,12 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("roti")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Darum}
               alt="Durum"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -122,13 +131,13 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("durum")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Bami}
               alt="Kibbeling"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -139,12 +148,12 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("kibbeling")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Pizza}
               alt="Pizza"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -155,12 +164,12 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("pizza")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Patat}
               alt="Patat"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -171,13 +180,13 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("patat")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Bami}
               alt="Kibbeling"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -188,13 +197,13 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("pannenkoeken")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Bami}
               alt="Kibbeling"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -205,13 +214,13 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("kibbeling")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-          <img
+            <img
               src={Bami}
               alt="Kibbeling"
               className="w-full h-48 object-cover rounded-md mb-4"
@@ -222,14 +231,10 @@ const Ontbijtmenu = () => {
               onClick={() => handleButtonClick("kibbeling")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
-              Bekijk Recept
+              Bekijk het dagmenu
             </button>
           </div>
 
-
-          
-
-          
           {[...Array(29)].map((_, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
               <img

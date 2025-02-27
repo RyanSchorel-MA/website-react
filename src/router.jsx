@@ -12,7 +12,7 @@ import Pizza from './routes/Pizza.jsx';
 import Patat from './routes/Patat.jsx';
 import Kibbeling from './routes/Kibbeling.jsx';
 import Pannenkoeken from './routes/Pannenkoeken.jsx';
-
+import SpinazieRecept from './routes/SpinazieRecept.jsx';
 
 
 export const router = createBrowserRouter([
@@ -29,7 +29,7 @@ export const router = createBrowserRouter([
   { path: "/patat", element: <Patat/> }, 
   { path: "/kibbeling", element: <Kibbeling/> },  
   { path: "/pannenkoeken", element: <Pannenkoeken/> },  
-
+  { path: "/spinazierecept", element: <SpinazieRecept/> },  
 
   { path: ":slug", element: <Contact /> },
 ]);
