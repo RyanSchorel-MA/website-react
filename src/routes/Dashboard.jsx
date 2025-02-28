@@ -9,7 +9,7 @@ import Roti from "../assets/roti.avif";
 import Darum from "../assets/Darum.jpg";
 import Patat from "../assets/Patat.jpg";
 import Pizza from "../assets/Pizza.jpg";
-import Pannenkoeken from "../assets/Pannenkoeken.jpg";
+
 import Kibbeling from "../assets/Kibbeling.jpg";
 
 import menu from "../assets/menu.png";
@@ -226,7 +226,7 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
-              src={Pannenkoeken}
+              src={menu}
               alt="Pannenkoeken"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
