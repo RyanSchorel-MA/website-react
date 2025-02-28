@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 
 const Dagmenu = () => {
- 
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []); 
