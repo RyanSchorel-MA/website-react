@@ -20,7 +20,7 @@ import TurksePizza from './routes/TurksePizza.jsx';
 import AardappelAnders from './routes/AardappelAnders.jsx';
 import BeefShanghai from './routes/BeefShanghai.jsx';
 import BeefTonight from './routes/BeefTonight.jsx';
-
+import Macaroni from './routes/Macaroni.jsx';
 
 export const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -46,7 +46,8 @@ export const router = createBrowserRouter([
   { path: "/aardappelanders", element: <AardappelAnders /> },
   { path: "/beefshanghai", element: <BeefShanghai /> },
   { path: "/beeftonight", element: <BeefTonight /> },
-  
+  { path: "/macaroni", element: <Macaroni /> },
+
   { path: ":slug", element: <Contact /> },
   
 ]);
