@@ -248,11 +248,12 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
-              src={Bami}
-              alt="Kibbeling"
+              src={menu}
+              alt="Pannenkoeken"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
+            <h2 className="text-xl font-bold text-center mb-2">Schnitzel
+            </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
               onClick={() => handleButtonClick("spinazierecept")}
@@ -260,7 +261,31 @@ const Ontbijtmenu = () => {
               Klik hier voor het recept
             </p>
             <button
-              onClick={() => handleButtonClick("kibbeling")}
+              onClick={() => handleButtonClick("schnitzel")}
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
+            >
+              Bekijk het dagmenu
+            </button>
+          </div>
+   
+
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+            <img
+              src={menu}
+              alt="Pannenkoeken"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2">Kussentjes
+            </h2>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
+            <button
+             onClick={() => handleButtonClick("kussentjes")}
+
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
               Bekijk het dagmenu
@@ -269,11 +294,12 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
-              src={Bami}
-              alt="Kibbeling"
+              src={menu}
+              alt="Pannenkoeken"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
+            <h2 className="text-xl font-bold text-center mb-2">Shaksuka
+            </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
               onClick={() => handleButtonClick("spinazierecept")}
@@ -281,28 +307,8 @@ const Ontbijtmenu = () => {
               Klik hier voor het recept
             </p>
             <button
-              onClick={() => handleButtonClick("kibbeling")}
-              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
-            >
-              Bekijk het dagmenu
-            </button>
-          </div>
+             onClick={() => handleButtonClick("shaksuka")}
 
-          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-            <img
-              src={Bami}
-              alt="Kibbeling"
-              className="w-full h-48 object-cover rounded-md mb-4"
-            />
-            <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
-              <p
-              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
-            >
-              Klik hier voor het recept
-            </p>
-            <button
-              onClick={() => handleButtonClick("kibbeling")}
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
               Bekijk het dagmenu
@@ -312,11 +318,12 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
-              src={Bami}
-              alt="Kibbeling"
+              src={menu}
+              alt="Pannenkoeken"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
+            <h2 className="text-xl font-bold text-center mb-2">Turkse Pizza
+            </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
               onClick={() => handleButtonClick("spinazierecept")}
@@ -324,30 +331,84 @@ const Ontbijtmenu = () => {
               Klik hier voor het recept
             </p>
             <button
-              onClick={() => handleButtonClick("kibbeling")}
+             onClick={() => handleButtonClick("turksepizza")}
+
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
               Bekijk het dagmenu
             </button>
           </div>
 
-          {[...Array(29)].map((_, index) => (
-            <div key={index} className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-              <img
-                src={menu}
-                alt={`Menu ${index + 3}`}
-                className="w-full h-48 object-cover rounded-md mb-4"
-              />
-              <h2 className="text-xl font-bold text-center mb-2">Menu: {index + 4}</h2>
-              <p className="text-gray-600 text-center mt-2 mb-4">Dit menu werkt nog niet!</p>
-              <button
-                onClick={() => handleButtonClick(`menu-${index + 3}`)}
-                className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
-              >
-                Bekijk Recept
-              </button>
-            </div>
-          ))}
+
+
+
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+            <img
+              src={menu}
+              alt="Pannenkoeken"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2"> Aardappel Anders
+            </h2>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
+            <button
+             onClick={() => handleButtonClick("aardappelanders")}
+
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
+            >
+              Bekijk het dagmenu
+            </button>
+          </div>
+
+
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+            <img
+              src={menu}
+              alt="Pannenkoeken"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2"> BeefShanghai
+            </h2>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
+            <button
+             onClick={() => handleButtonClick("beefshanghai")}
+
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
+            >
+              Bekijk het dagmenu
+            </button>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </div>
     </div>
