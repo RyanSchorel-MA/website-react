@@ -9,8 +9,8 @@ import Roti from "../assets/roti.avif";
 import Darum from "../assets/Darum.jpg";
 import Patat from "../assets/Patat.jpg";
 import Pizza from "../assets/Pizza.jpg";
-
-
+import Pannenkoeken from "../assets/Pannenkoeken.jpg";
+import Kibbeling from "../assets/Kibbeling.jpg";
 
 import menu from "../assets/menu.png";
 
@@ -162,7 +162,7 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
-              src={Bami}
+              src={Kibbeling}
               alt="Kibbeling"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -226,8 +226,8 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
-              src={Bami}
-              alt="Kibbeling"
+              src={Pannenkoeken}
+              alt="Pannenkoeken"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Pannenkoeken</h2>
@@ -245,6 +245,48 @@ const Ontbijtmenu = () => {
             </button>
           </div>
 
+
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+            <img
+              src={Bami}
+              alt="Kibbeling"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
+            <button
+              onClick={() => handleButtonClick("kibbeling")}
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
+            >
+              Bekijk het dagmenu
+            </button>
+          </div>
+
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+            <img
+              src={Bami}
+              alt="Kibbeling"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2">Kibbeling</h2>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
+            <button
+              onClick={() => handleButtonClick("kibbeling")}
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
+            >
+              Bekijk het dagmenu
+            </button>
+          </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
