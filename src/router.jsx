@@ -19,6 +19,7 @@ import Shaksuka from './routes/Shaksuka.jsx';
 import TurksePizza from './routes/TurksePizza.jsx';
 import AardappelAnders from './routes/AardappelAnders.jsx';
 import BeefShanghai from './routes/BeefShanghai.jsx';
+import BeefTonight from './routes/BeefTonight.jsx';
 
 
 export const router = createBrowserRouter([
@@ -44,6 +45,7 @@ export const router = createBrowserRouter([
   { path: "/turksepizza", element: <TurksePizza /> },
   { path: "/aardappelanders", element: <AardappelAnders /> },
   { path: "/beefshanghai", element: <BeefShanghai /> },
+  { path: "/beeftonight", element: <BeefTonight /> },
   
   { path: ":slug", element: <Contact /> },
   
