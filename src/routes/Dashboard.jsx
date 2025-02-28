@@ -353,7 +353,7 @@ const Ontbijtmenu = () => {
               alt="Pannenkoeken"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h2 className="text-xl font-bold text-center mb-2"> BeefShanghai
+            <h2 className="text-xl font-bold text-center mb-2"> Beef Shanghai
             </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
@@ -372,7 +372,28 @@ const Ontbijtmenu = () => {
 
 
 
+          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
+            <img
+              src={menu}
+              alt="Pannenkoeken"
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h2 className="text-xl font-bold text-center mb-2"> Beef Tonight
+            </h2>
+              <p
+              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
+              onClick={() => handleButtonClick("spinazierecept")}
+            >
+              Klik hier voor het recept
+            </p>
+            <button
+             onClick={() => handleButtonClick("beeftonight")}
 
+              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
+            >
+              Bekijk het dagmenu
+            </button>
+          </div>
 
 
 

@@ -45,6 +45,6 @@ export const router = createBrowserRouter([
   { path: "/aardappelanders", element: <AardappelAnders /> },
   { path: "/beefshanghai", element: <BeefShanghai /> },
   
-
   { path: ":slug", element: <Contact /> },
+  
 ]);

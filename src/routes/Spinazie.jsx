@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 
 const Dagmenu = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -34,12 +33,11 @@ const Dagmenu = () => {
 };
 
 const menuItems = [
-  { title: "Ontbijt", color: "text-yellow-500", items: ["2 beschuiten met kaas", "1 beschuit met groentespread", "200 ml melk"] },
-  { title: "Tussendoortje", color: "text-orange-500", items: ["2 kiwi's"] },
-  { title: "Lunch", color: "text-red-500", items: ["2 sneeën brood met magere vleeswaren en rauwkost", "1 snee brood met smeerkaas en rauwkost", "1 gekookt ei"] },
-  { title: "Tussendoortje", color: "text-red-600", items: ["200 gr yoghurt", "20 gr granola"] },
-  { title: "Diner", color: "text-red-700", items: ["fajitas met gehakt en frisse saus"] },
-  { title: "Snack", color: "text-red-800", items: ["250 gr fruitsalade van fruit naar keuze"] },
+  { title: "Ontbijt", color: "text-yellow-500", items: ["2 crackers vleeswaren", "1 cracker jam", "Melk"] },
+  { title: "Tussendoortje", color: "text-orange-500", items: ["Druiven"] },
+  { title: "Lunch", color: "text-red-500", items: ["2 brood appelstroop", "1 brood groentespread", "Rauwkost", "Kiwi"] },
+  { title: "Snack", color: "text-red-600", items: ["Ei"] },
+  { title: "Diner", color: "text-red-700", items: ["Spinazie"] }
 ];
 
 export default Dagmenu;
