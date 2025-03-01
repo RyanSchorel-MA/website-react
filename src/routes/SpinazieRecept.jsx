@@ -10,7 +10,7 @@ const SpinazieRecept = () => {
         <div className="space-y-4">
           
           <div className="space-y-2">
-            <p class="font-bold">Dit werkt nog niet</p>
+            <p class="font-bold">Dit recept is momenteel niet beschikbaar!</p>
           
            
           

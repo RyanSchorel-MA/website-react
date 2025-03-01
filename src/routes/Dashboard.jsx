@@ -63,7 +63,7 @@ const Ontbijtmenu = () => {
             <h2 className="text-xl font-bold text-center mb-2">Wraps</h2>
             <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("wrapsrecept")}
             >
               Klik hier voor het recept
             </p>
@@ -86,7 +86,7 @@ const Ontbijtmenu = () => {
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
               onClick={() => handleButtonClick("spinazierecept")}
             >
-              Klik hier voor het recept
+              -
             </p>
             <button
               onClick={() => handleButtonClick("andijvie")}
@@ -105,7 +105,7 @@ const Ontbijtmenu = () => {
             <h2 className="text-xl font-bold text-center mb-2">Bami</h2>
             <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("bamirecept")}
             >
               Klik hier voor het recept
             </p>
@@ -256,7 +256,7 @@ const Ontbijtmenu = () => {
               alt="Pannenkoeken"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h2 className="text-xl font-bold text-center mb-2">Kussentjes
+            <h2 className="text-xl font-bold text-center mb-2">Nachoschotel
             </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
@@ -265,7 +265,7 @@ const Ontbijtmenu = () => {
               Klik hier voor het recept
             </p>
             <button
-             onClick={() => handleButtonClick("kussentjes")}
+             onClick={() => handleButtonClick("nachoschotel")}
 
               className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
             >
@@ -395,48 +395,7 @@ const Ontbijtmenu = () => {
             </button>
           </div>
 
-          <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-            <img
-              src={menu}
-              alt="Pannenkoeken"
-              className="w-full h-48 object-cover rounded-md mb-4"
-            />
-            <h2 className="text-xl font-bold text-center mb-2"> Macaroni
-            </h2>
-              <p
-              className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
-            >
-              Klik hier voor het recept
-            </p>
-            <button
-            onClick={() => handleButtonClick("macaroni")}
-
-
-              className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors"
-            >
-              Bekijk het dagmenu
-            </button>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         
 
 
 
