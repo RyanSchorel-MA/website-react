@@ -9,8 +9,10 @@ import Roti from "../assets/roti.avif";
 import Darum from "../assets/Darum.jpg";
 import Patat from "../assets/Patat.jpg";
 import Pizza from "../assets/Pizza.jpg";
-
 import Kibbeling from "../assets/Kibbeling.jpg";
+import Nachoschotel from "../assets/Nachoschotel.webp";
+import Shaksuka from "../assets/Shaksuka.jpg";
+
 
 import menu from "../assets/menu.png";
 
@@ -126,7 +128,7 @@ const Ontbijtmenu = () => {
             <h2 className="text-xl font-bold text-center mb-2">Roti</h2>
             <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("rotirecept")}
             >
               Klik hier voor het recept
             </p>
@@ -147,7 +149,7 @@ const Ontbijtmenu = () => {
             <h2 className="text-xl font-bold text-center mb-2">Durum</h2>
             <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("durumrecept")}
             >
               Klik hier voor het recept
             </p>
@@ -171,7 +173,7 @@ const Ontbijtmenu = () => {
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
               onClick={() => handleButtonClick("spinazierecept")}
             >
-              Klik hier voor het recept
+              -
             </p>
             <button
               onClick={() => handleButtonClick("kibbeling")}
@@ -192,7 +194,7 @@ const Ontbijtmenu = () => {
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
               onClick={() => handleButtonClick("spinazierecept")}
             >
-              Klik hier voor het recept
+              -
             </p>
             <button
               onClick={() => handleButtonClick("pizza")}
@@ -213,7 +215,7 @@ const Ontbijtmenu = () => {
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
               onClick={() => handleButtonClick("spinazierecept")}
             >
-              Klik hier voor het recept
+              -
             </p>
             <button
               onClick={() => handleButtonClick("patat")}
@@ -239,7 +241,7 @@ const Ontbijtmenu = () => {
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
               onClick={() => handleButtonClick("spinazierecept")}
             >
-              Klik hier voor het recept
+              -
             </p>
             <button
               onClick={() => handleButtonClick("schnitzel")}
@@ -252,15 +254,15 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
-              src={menu}
-              alt="Pannenkoeken"
+              src={Nachoschotel}
+              alt="Nachoschotel"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Nachoschotel
             </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("nachoschotelrecept")}
             >
               Klik hier voor het recept
             </p>
@@ -275,15 +277,15 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
-              src={menu}
-              alt="Pannenkoeken"
+              src={Shaksuka}
+              alt="Shaksuka"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">Shaksuka
             </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("shaksukarecept")}
             >
               Klik hier voor het recept
             </p>
@@ -307,7 +309,7 @@ const Ontbijtmenu = () => {
             </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("turksepizzarecept")}
             >
               Klik hier voor het recept
             </p>
@@ -333,7 +335,7 @@ const Ontbijtmenu = () => {
             </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("aardappelandersrecept")}
             >
               Klik hier voor het recept
             </p>
@@ -357,7 +359,7 @@ const Ontbijtmenu = () => {
             </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("beefshanghairecept")}
             >
               Klik hier voor het recept
             </p>
@@ -382,7 +384,7 @@ const Ontbijtmenu = () => {
             </h2>
               <p
               className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500"
-              onClick={() => handleButtonClick("spinazierecept")}
+              onClick={() => handleButtonClick("beeftonightrecept")}
             >
               Klik hier voor het recept
             </p>

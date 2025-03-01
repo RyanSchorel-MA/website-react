@@ -11,8 +11,6 @@ import Durum from './routes/Durum.jsx';
 import Pizza from './routes/Pizza.jsx';
 import Patat from './routes/Patat.jsx';
 import Kibbeling from './routes/Kibbeling.jsx';
-
-import SpinazieRecept from './routes/SpinazieRecept.jsx';
 import Schnitzel from './routes/Schnitzel.jsx';
 import Nachoschotel from './routes/Nachoschotel.jsx';
 import Shaksuka from './routes/Shaksuka.jsx';
@@ -22,9 +20,19 @@ import BeefShanghai from './routes/BeefShanghai.jsx';
 import BeefTonight from './routes/BeefTonight.jsx';
 import Macaroni from './routes/Macaroni.jsx';
 
+
 import WrapsRecept from './routes/WrapsRecept.jsx';
 import BamiRecept from './routes/BamiRecept.jsx';
+import RotiRecept from './routes/RotiRecept.jsx';
+import DurumRecept from './routes/DurumRecept.jsx';
+import NachoschotelRecept from './routes/NachoschotelRecept.jsx';
+import ShaksukaRecept from './routes/ShaksukaRecept.jsx';
+import TurksePizzaRecept from './routes/TurksePizzaRecept.jsx';
+import AardappelAndersRecept from './routes/AardappelAndersReccept.jsx';
+import BeefShanghaiRecept from './routes/BeefShanghaiRecept.jsx';
+import BeefTonightRecept from './routes/BeefTonightRecept.jsx';
 
+import SpinazieRecept from './routes/SpinazieRecept.jsx';
 
 
 export const router = createBrowserRouter([
@@ -49,23 +57,18 @@ export const router = createBrowserRouter([
   { path: "/beeftonight", element: <BeefTonight /> },
   { path: "/macaroni", element: <Macaroni /> },
 
-  // Hier ga ik alle recepten neer zetten
+
   { path: "/spinazierecept", element: <SpinazieRecept /> },
   { path: "/wrapsrecept", element: <WrapsRecept /> },
   { path: "/bamirecept", element: <BamiRecept /> },
-
-
-
-
-
+  { path: "/rotirecept", element: <RotiRecept /> },
+  { path: "/durumrecept", element: <DurumRecept /> },
+  { path: "/nachoschotelrecept", element: <NachoschotelRecept /> },
+  { path: "/shaksukarecept", element: <ShaksukaRecept /> },
+  { path: "/turksepizzarecept", element: <TurksePizzaRecept /> },
+  { path: "/aardappelandersrecept", element: <AardappelAndersRecept /> },
+  { path: "/beefshanghairecept", element: <BeefShanghaiRecept /> },
+  { path: "/beeftonightrecept", element: <BeefTonightRecept /> },
   
   { path: ":slug", element: <Contact /> },
-  
 ]);
-
-//beef shanhei
-//shaksuka
-//beef tonight
-//Aardappel Anders
-//Nachoschotel
-//Bami

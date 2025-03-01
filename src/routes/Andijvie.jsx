@@ -15,6 +15,8 @@ const Dagmenu = () => {
         {/* Menu 1 */}
         <div className="bg-white rounded-lg shadow-lg p-6 max-w-xl w-full mb-12">
           <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">Menu 1</h2>
+          <p className="text-lg text-center text-gray-600 mb-4">Andijvie</p>
+
           {menu1.map((item, index) => (
             <div key={index} className="p-4 border rounded-lg bg-gray-50 mb-4">
               <h3 className={`font-bold text-lg ${item.color}`}>{item.title}</h3>
@@ -30,6 +32,7 @@ const Dagmenu = () => {
         {/* Menu 2 */}
         <div className="bg-white rounded-lg shadow-lg p-6 max-w-xl w-full">
           <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">Menu 2</h2>
+          <p className="text-lg text-center text-gray-600 mb-4">Andijvie</p>
           {menu2.map((item, index) => (
             <div key={index} className="p-4 border rounded-lg bg-gray-50 mb-4">
               <h3 className={`font-bold text-lg ${item.color}`}>{item.title}</h3>
