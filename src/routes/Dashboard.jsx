@@ -12,7 +12,7 @@ import Pizza from "../assets/Pizza.jpg";
 import Kibbeling from "../assets/Kibbeling.jpg";
 import Nachoschotel from "../assets/Nachoschotel.webp";
 import Shaksuka from "../assets/Shaksuka.jpg";
-
+import Schnitzel from "../assets/schnitzel.jpg";
 
 import menu from "../assets/menu.png";
 
@@ -231,7 +231,7 @@ const Ontbijtmenu = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
             <img
-              src={menu}
+              src={Schnitzel}
               alt="Pannenkoeken"
               className="w-full h-48 object-cover rounded-md mb-4"
             />
