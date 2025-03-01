@@ -8,7 +8,9 @@ import beefshanghai from "../assets/beefshanghai.jpg";
 import beeftonight from "../assets/beeftonight.jpg";
 import Darum from "../assets/Darum.jpg";
 import Kibbeling from "../assets/Kibbeling.jpg";
-import Nachoschotel from "../assets/Nachoschotel.webp";
+
+import Nachoschotel from "../assets/nachoschotel.webp";
+
 import Patat from "../assets/Patat.jpg";
 import Pizza from "../assets/Pizza.jpg";
 import Roti from "../assets/roti.avif";
