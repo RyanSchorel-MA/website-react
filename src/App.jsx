@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <div className="text-center text-black mt-12"> 
         <h1 className="text-5xl font-extrabold mb-6 text-shadow-lg">
-          Welkom op de website!
+          Lekker Gezond Eten 2025
         </h1>
         <p className="text-2xl italic mb-8">
           Ontdek recepten & dagmenu's!
@@ -25,7 +25,7 @@ function App() {
             onClick={() => handleButtonClick("dashboard")}
             className="bg-yellow-500 hover:bg-yellow-600 text-white text-lg py-3 px-6 rounded-lg transition duration-300"
           >
-            Ga er nu heen!
+            Klik Hier!
           </button>
       
         </div>

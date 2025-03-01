@@ -14,12 +14,9 @@ const Contact = () => {
             Hoe kan je ons helpen?
           </h2>
           <p className="text-gray-600 mb-4">
-            Als je tegen een probleem aanloopt, stuur ons dan een gedetailleerde uitleg van het probleem en voeg een screenshot toe.
+            Als je tegen een probleem aanloopt op de website, stuur ons dan een gedetailleerde uitleg van het probleem en voeg een screenshot toe.
           </p>
-          <p className="text-gray-600 mb-6">
-            Stuur het naar ons Gmail adres: <a href="mailto:ryanschorel@gmail.com">ryanschorel@gmail.com</a>
-          </p>
-
+    
           <div className="bg-gray-50 p-6 rounded-md border border-gray-300">
             <h3 className="text-lg font-semibold mb-3 text-gray-700">
               Stappen om je probleem te melden:
