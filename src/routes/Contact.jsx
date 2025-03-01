@@ -32,7 +32,11 @@ const Contact = () => {
         </div>
         
       </div>
-      
+      <footer className="bg-[#DFD7BF] text-black py-4 mt-auto text-center  fixed en bottom-0 w-screen">
+        <p className="text-sm">
+        © 2025 Ryan Schorel · All Rights Reserved
+        </p>
+      </footer>
     </div>
     
   
