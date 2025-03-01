@@ -26,10 +26,15 @@ const Contact = () => {
               <li>Voeg een screenshot toe van het probleem.</li>
               <li>Stuur alles naar <span className="font-bold text-blue-500">ryanschorel@gmail.com</span>.</li>
             </ul>
+            
           </div>
+          
         </div>
+        
       </div>
+      
     </div>
+    
   
 };
 

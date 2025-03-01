@@ -211,10 +211,18 @@ const Ontbijtmenu = () => {
             <h2 className="text-xl font-bold text-center mb-2">Wraps</h2>
             <p className="text-gray-600 text-center mt-2 mb-4 cursor-pointer hover:text-blue-500" onClick={() => handleButtonClick("wrapsrecept")}>Klik hier voor het recept</p>
             <button onClick={() => handleButtonClick("wraps")} className="bg-blue-500 text-white p-2 rounded mt-4 w-full hover:bg-blue-600 transition-colors">Bekijk het dagmenu</button>
+            
           </div>
         </div>
       </div>
+       {/* Footer */}
+       <footer className="bg-[#DFD7BF] text-black py-4 mt-auto text-center ">
+        <p className="text-sm">
+        © 2025 Ryan Schorel · All Rights Reserved
+        </p>
+      </footer>
     </div>
+    
   );
 };
 
