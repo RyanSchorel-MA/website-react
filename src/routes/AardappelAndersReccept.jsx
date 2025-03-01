@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 
-const NachoschotelRecept = () => {
+const AardappelAndersRecept = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -11,8 +11,7 @@ const NachoschotelRecept = () => {
       <Navbar />
       <div className="flex flex-col items-center p-6">
         <div className="bg-white rounded-lg shadow-lg p-6 max-w-xl w-full">
-          <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Aardappel Anders niet af</h1>
-          <p className="text-lg text-center text-gray-600 mb-2">20 minuten + 8 minuten oventijd | 524 Kcal (per persoon)</p>
+          <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Aardappel Anders</h1>
 
           <h2 className="text-2xl font-semibold text-gray-700 mt-4">Ingrediënten (twee personen)</h2>
           <ul className="list-disc list-inside text-gray-700 mt-2">
@@ -27,13 +26,6 @@ const NachoschotelRecept = () => {
               <li key={index}>{step}</li>
             ))}
           </ol>
-
-          <h2 className="text-2xl font-semibold text-gray-700 mt-6">Tips & Tricks</h2>
-          <ul className="list-disc list-inside text-gray-700 mt-2">
-            {tips.map((tip, index) => (
-              <li key={index}>{tip}</li>
-            ))}
-          </ul>
         </div>
       </div>
     </div>
@@ -41,28 +33,29 @@ const NachoschotelRecept = () => {
 };
 
 const ingredients = [
-  "80 gr tortilla chips (naturel)",
-  "100 gr mager rundergehakt",
-  "400 gr Mexicaanse roerbakgroente",
-  "1 tomaat",
-  "75 gr crème fraîche",
-  "35 gr geraspte kaas",
-  "Mexicaanse kruiden"
+  "300 gr aardappels",
+  "2 tomaten",
+  "1 flinke rode ui (of twee kleintjes)",
+  "20 gr ongezouten roomboter",
+  "20 gr bloem",
+  "200 ml melk",
+  "50 gr geraspte kaas",
+  "200 gr hamblokjes (optioneel, zie tips en tricks)",
+  "peterselie (kan ook gedroogd)",
+  "citroen(sap)"
 ];
 
 const instructions = [
   "Verwarm de oven voor op 180 graden.",
-  "Kruid het gehakt met de Mexicaanse gehaktkruiden.",
-  "Snijd de tomaat in kleine blokjes.",
-  "Neem een wok en bak het gehakt rul. Voeg na een minuut of twee ook de Mexicaanse groente en de tomaat toe en laat dit een minuut of vijf meebakken.",
-  "Neem een ovenschaal en verdeel de helft van de tortilla chips over de bodem.",
-  "Verdeel het gehaktmengsel over de tortilla chips.",
-  "Neem de andere helft van de tortilla chips en smeer op elk chipje een klein likje crème fraîche. Vervolgens steek je de chips een beetje schuin in de schotel. Als je nog crème fraîche over hebt kun je dit verdelen over de schotel.",
-  "Strooi de geraspte kaas over het gerecht en zet het ongeveer acht minuten in de oven."
+  "Schil de aardappels en snijd ze in schijfjes. Kook ze 10 minuten in water met een klein beetje zout.",
+  "Snijd de tomaat in plakken en de rode ui in ringen.",
+  "Hak de peterselie fijn. Je hebt ongeveer twee eetlepels fijngehakte peterselie nodig.",
+  "Bedek de bodem van de ovenschaal met een laagje aardappel. Leg daarop de tomaat en vervolgens de uiringen. Als je nog aardappel over hebt eindig je daarmee.",
+  "Neem een steelpan en smelt daarin de boter. Voeg vervolgens de bloem toe en blijf goed roeren terwijl je de bloem in een paar minuten zachtjes gaar laat bakken.",
+  "Voeg nu al roerend de melk toe en breng de saus weer aan de kook. Voeg 40 gr geraspte kaas toe, peterselie, peper, zout en ongeveer twee theelepels citroensap toe. Als je het lekker vindt kun je ook wat knoflookpoeder toevoegen.",
+  "Als je hamblokjes gebruikt kun je deze nu door de saus roeren.",
+  "Proef de saus en voeg naar smaak extra peper, zout of citroensap toe.",
+  "Verdeel de saus over de ovenschaal, strooi de laatste 10 gr kaas erover en bak het gerecht in ongeveer 20 minuten af."
 ];
 
-const tips = [
-  "Hou je het liever nog wat magerder? Vervang dan het gehakt door kleine stukjes kipfilet."
-];
-
-export default NachoschotelRecept;
+export default AardappelAndersRecept;

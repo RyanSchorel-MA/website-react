@@ -32,7 +32,7 @@ import AardappelAndersRecept from './routes/AardappelAndersReccept.jsx';
 import BeefShanghaiRecept from './routes/BeefShanghaiRecept.jsx';
 import BeefTonightRecept from './routes/BeefTonightRecept.jsx';
 
-import SpinazieRecept from './routes/SpinazieRecept.jsx';
+import GeenRecept from './routes/GeenRecept.jsx';
 
 
 export const router = createBrowserRouter([
@@ -58,7 +58,7 @@ export const router = createBrowserRouter([
   { path: "/macaroni", element: <Macaroni /> },
 
 
-  { path: "/spinazierecept", element: <SpinazieRecept /> },
+  { path: "/geenrecept", element: <GeenRecept /> },
   { path: "/wrapsrecept", element: <WrapsRecept /> },
   { path: "/bamirecept", element: <BamiRecept /> },
   { path: "/rotirecept", element: <RotiRecept /> },

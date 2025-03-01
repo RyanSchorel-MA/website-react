@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 
-const NachoschotelRecept = () => {
+const BeefShanghaiRecept = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -11,8 +11,7 @@ const NachoschotelRecept = () => {
       <Navbar />
       <div className="flex flex-col items-center p-6">
         <div className="bg-white rounded-lg shadow-lg p-6 max-w-xl w-full">
-          <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Beef Shanghai niet af</h1>
-          <p className="text-lg text-center text-gray-600 mb-2">20 minuten + 8 minuten oventijd | 524 Kcal (per persoon)</p>
+          <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Beef Shanghai</h1>
 
           <h2 className="text-2xl font-semibold text-gray-700 mt-4">Ingrediënten (twee personen)</h2>
           <ul className="list-disc list-inside text-gray-700 mt-2">
@@ -27,13 +26,6 @@ const NachoschotelRecept = () => {
               <li key={index}>{step}</li>
             ))}
           </ol>
-
-          <h2 className="text-2xl font-semibold text-gray-700 mt-6">Tips & Tricks</h2>
-          <ul className="list-disc list-inside text-gray-700 mt-2">
-            {tips.map((tip, index) => (
-              <li key={index}>{tip}</li>
-            ))}
-          </ul>
         </div>
       </div>
     </div>
@@ -41,28 +33,32 @@ const NachoschotelRecept = () => {
 };
 
 const ingredients = [
-  "80 gr tortilla chips (naturel)",
-  "100 gr mager rundergehakt",
-  "400 gr Mexicaanse roerbakgroente",
-  "1 tomaat",
-  "75 gr crème fraîche",
-  "35 gr geraspte kaas",
-  "Mexicaanse kruiden"
+  "120 gr mie",
+  "200 gr prei",
+  "1 ui",
+  "1 teentje knoflook",
+  "10 gr peterselie",
+  "1 à 2 cm gember",
+  "200 gr rundergehakt",
+  "40 gr tomatenpuree",
+  "200 ml runderbouillon",
+  "10 ml ketjap manis",
+  "10 ml oestersaus",
+  "100 gr taugé",
+  "5 gr sambal"
 ];
 
 const instructions = [
-  "Verwarm de oven voor op 180 graden.",
-  "Kruid het gehakt met de Mexicaanse gehaktkruiden.",
-  "Snijd de tomaat in kleine blokjes.",
-  "Neem een wok en bak het gehakt rul. Voeg na een minuut of twee ook de Mexicaanse groente en de tomaat toe en laat dit een minuut of vijf meebakken.",
-  "Neem een ovenschaal en verdeel de helft van de tortilla chips over de bodem.",
-  "Verdeel het gehaktmengsel over de tortilla chips.",
-  "Neem de andere helft van de tortilla chips en smeer op elk chipje een klein likje crème fraîche. Vervolgens steek je de chips een beetje schuin in de schotel. Als je nog crème fraîche over hebt kun je dit verdelen over de schotel.",
-  "Strooi de geraspte kaas over het gerecht en zet het ongeveer acht minuten in de oven."
+  "Kook de mie volgens de aanwijzingen op de verpakking. Giet af en spoel koud.",
+  "Snipper de ui en snijd de prei in ringen. Hak de knoflook fijn.",
+  "Snijd de gember in kleine stukjes.",
+  "Hak de peterselie fijn en meng samen met wat peper en zout door het gehakt en draai kleine balletjes.",
+  "Verhit een scheut olie in de pan en fruit de gember, knoflook en ui aan. Zet het even apart.",
+  "Bak de gehaktballetjes op hoog vuur rondom bruin.",
+  "Voeg de prei en tomatenpuree toe en bak kort mee.",
+  "Voeg de runderbouillon, oestersaus en ketjap manis toe. Doe ook de ui, knoflook en gember weer terug in de pan.",
+  "Laat op laag vuur inkoken tot een dikke saus.",
+  "Meng de mie en taugé er doorheen en voeg naar smaak sambal toe."
 ];
 
-const tips = [
-  "Hou je het liever nog wat magerder? Vervang dan het gehakt door kleine stukjes kipfilet."
-];
-
-export default NachoschotelRecept;
+export default BeefShanghaiRecept;

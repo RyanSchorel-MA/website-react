@@ -5,7 +5,7 @@ const Contact = () => {
   return <div>
     <Navbar />
       
-      <h1 className="text-3xl font-bold text-center mb-6 ">Contact</h1>
+    <h1 className="text-3xl font-bold text-center mb-6 ">Contact</h1>
 
       {/* Dit is de container die we centreren */}
       <div className="flex justify-center items-center w-full">
